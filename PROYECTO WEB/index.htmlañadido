@@ -1,0 +1,22 @@
+﻿<html>
+    <head>
+	<link rel="stylesheet" href="stilo.css">
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div><H1>MOTIVACION/SUPERACION</H1>
+        <h1> Frases </h1> 
+        <p>Una vez que cuestionas tus propias creencias, estás acabado.</p>
+        <img src ="image-465-cke.jpg">
+        <p>A la cima no se llega superando a los demás, sino superándote a ti mismo</p>
+        <img src="rocky.jpg">
+        <p>enlace a <a href="https://youtu.be/ZfIVRgbI2Mc">video motivacion</a></p>
+        <h1>la clave del exito es la constanciai</h1>
+        
+        
+       </div> 
+    </body>
+</html>
