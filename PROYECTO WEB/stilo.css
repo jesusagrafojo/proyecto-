@@ -1,5 +1,22 @@
-*{margin: 0px
-  padding:0px ;}
+@import "normalize.css";
+
+@font-face {
+  font-family: Kurale-Regular;
+  src: url(Kurale-Regular.ttf);
+}
+
+:root {
+  --main-bg-color: brown;
+  --tamano-borde: 3em;
+  --color-enlace: yellow;
+  
+}
+
+* {margin: 0px;
+  padding:0px;
+  list-style-type: none;
+  text-decoration: none ;
+}
 p {
   color: black;
   text-align: center;
@@ -10,25 +27,80 @@ div.static {
   position: absolute;
   border: 3px solid #73AD21;
 }h1 {
-  background-color: yellow;
+  color: aliceblue;
   text-align: center;
+  margin: 0em;
 }
 body {
   background-image: url("fondo.jpg");
 }
-img {
-  
-  text-align: center;
-}
-img{
-display:block;
-margin:auto;
-width: 500px; height: 500px;}
+
 #contenedor{
 margin: 0.5em
+
 
 }
 nav{
   text-align: center;
 
+}
+header{
+  background-image: url(fuego-01.jpg);
+  height: 20%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:bottom;
+  opacity: 50%;
+  text-align: center;
+}
+
+ ul {
+  display: grid;
+  grid-template-columns: 200px 100px 200px;
+  
+ }
+ul > li {
+  background-color: sienna;
+  margin: 0px 5px;
+
+
+}
+ul > li > a {
+display:block;
+  background-color: sienna;
+  text-align:center;
+  padding: 5px ;
+
+}
+ul > li > a:hover {
+  background-color: rgb(255, 85, 7);
+}
+
+.enlace-menu {
+  color: var(--color-enlace);
+}
+
+
+.articulo {
+  text-align: center;
+  margin:auto;
+  width: auto;
+  height: 200px;
+  background-color: aliceblue;
+}
+.imagen > img{
+ width: auto;
+ height: 120px;
+}
+section {
+  display: grid;
+  grid-template-columns:  300px 300px 300px ;
+  grid-column-gap: 50px;
+}
+
+.titulo {
+font-size:1.2em;
+font-weight: 700;
+justify-content: center;
+font-family: 'Kurale-Regular';
 }
